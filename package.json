@@ -1,0 +1,12 @@
+{
+  "name": "webrtmp-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:thearyanag/omegle-web3.git",
+  "author": "Aryan <agarwalaryan139@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "create-react-app": "^5.0.1",
+    "react-scripts": "^5.0.1"
+  }
+}

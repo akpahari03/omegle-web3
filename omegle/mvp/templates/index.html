@@ -1,0 +1,27 @@
+{% load static %}
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<link rel="icon" href="{% static "favicon.ico" %}" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#000000" />
+<meta name="description" content="Web site" />
+<title>WebRTMP Example</title>
+<link rel="stylesheet" href="{% static "index.css" %}">
+</link>
+</head>
+
+<body>
+<div id="root">
+
+  <video id="tovideo"></video>
+  <video id="fromvideo"></video>
+  
+  <button id="button">Start</button>
+  </div>
+
+</body>
+  <script type="text/javascript" src="https://unpkg.com/@livepeer/webrtmp-sdk@0.2.3/dist/index.js"></script>
+  <script src="{% static "index.js" %}"></script>
+  </html>
